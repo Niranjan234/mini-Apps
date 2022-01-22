@@ -427,7 +427,7 @@ public class atm1 {
                     String username = sc.next();
                     System.out.println("Enter Password:");
                     int pass = sc.nextInt();
-                    if ((username).equals("gokul") && (pass == 1234)) {
+                    if ((username).equals("niranjan") && (pass == 1234)) {
                         op.admin();
                     }
 
@@ -442,7 +442,7 @@ public class atm1 {
                         String username1 = sc.next();
                         System.out.println("Enter Password:");
                         int pass1 = sc.nextInt();
-                        if ((username1).equals("gokul") && (pass1 == fass)) {
+                        if ((username1).equals("niranjan") && (pass1 == fass)) {
                             op.customer();
                             break;
                         } else if ((username1).equals("user") && (pass1 == mass)) {
